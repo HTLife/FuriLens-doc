@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/doc-furilens/',
+  base: '/FuriLens-doc/',
   locales: {
     root: {
       label: 'English',
