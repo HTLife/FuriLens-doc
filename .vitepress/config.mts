@@ -7,22 +7,22 @@ export default defineConfig({
     publicDir: '.vitepress/public'
   },
   locales: {
-    root: {
+    en: {
       label: 'English',
       lang: 'en',
       title: "FuriLens User Guide v1.4.0",
       description: "an intelligent Japanese reading assistant designed to make reading smoother and more efficient.",
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Introduction', link: '/introduction/intro' }
+          { text: 'Home', link: '/en/' },
+          { text: 'Introduction', link: '/en/introduction/intro' }
         ],
         sidebar: {
-          '/introduction/': [
+          '/en/introduction/': [
             {
               text: 'Introduction',
               items: [
-                { text: 'Getting Started', link: '/introduction/intro' }
+                { text: 'Getting Started', link: '/en/introduction/intro' }
               ]
             }
           ]

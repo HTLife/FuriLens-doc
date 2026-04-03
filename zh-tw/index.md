@@ -4,6 +4,9 @@ layout: home
 
 hero:
   name: "FuriLens 使用指南"
+  image:
+    src: /furilens_icon.png
+    alt: FuriLens
   # text: "日文閱讀輔助工具"
   tagline: 自信地閱讀日文
   actions:
