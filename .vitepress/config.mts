@@ -3,6 +3,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/FuriLens-doc/',
+  vite: {
+    publicDir: '.vitepress/public'
+  },
   locales: {
     root: {
       label: 'English',
@@ -50,6 +53,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    logo: '/furilens_icon.png',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]

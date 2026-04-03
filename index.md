@@ -4,6 +4,9 @@ layout: home
 
 hero:
   name: "FuriLens User Guide"
+  image:
+    src: /furilens_icon.png
+    alt: FuriLens
   # text: "an Japanese reading assistant"
   tagline: Read Japanese with confidence
   actions:
